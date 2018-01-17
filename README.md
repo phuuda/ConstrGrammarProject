@@ -20,9 +20,7 @@
 * человек, женщина, ребенок
 * жизнь, отдых, работа
 
-Данные <i>X, а не Y</i> собирались с помощью запросов <i>X, а не человек</i>; <i>X, а не жизнь</i> и т.д.
-
-Данные собирались в корпусе Russian Web 2011:
+Данные <i>X, а не Y</i> собирались с помощью запросов <i>X, а не человек</i>; <i>X, а не жизнь</i> и т.д. в корпусе Russian Web 2011:
 
 * <i>не Y, а X</i> -- 138 примеров
 * <i>X, а не Y</i> -- 163 примера
@@ -51,6 +49,8 @@
 ![toneplot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tone_plot.png "tone plot")
 ![y_quants](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/all_y.png "y quantities")
 ![y_animacy](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animacy_percents.png "y animacy")
+![corr_plot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/variable_corr.png "var correlation")
+
 
 ## Мультифакторный анализ
 Здесь рекомендуется использовать один из следующих подходов к моделированию/анализу данных:  
