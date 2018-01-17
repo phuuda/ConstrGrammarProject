@@ -52,10 +52,14 @@
 * <i>X, а не Y</i> чуть выше % отрицательных оценок, чем <i>не Y, а X</i>
 
 ![y_quants](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/all_y.png "y quantities")
-![y_animacy](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animacy_percents.png "y animacy")
 
 * Примерно одинаково количеств. соотношение оцениваемых объектов
-* Исключение: <i>работа</i> -- намного чаще употребляется с <i>X, а не Y</i>
+* Исключение: <i>работа</i> - намного чаще употребляется с <i>X, а не Y</i>
+* <i>Отдых</i> чаще встречается с <i>не Y, а X</i>
+
+![y_animacy](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animacy_percents.png "y animacy")
+
+* <i>не Y, а X</i> немного чаще употребляется для оценки одушевленных объектов, чем <i>X, а не Y</i>
 
 ![corr_plot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/variable_corr.png "var correlation")
 
