@@ -47,6 +47,10 @@
 Рекомендуются гистограммы, density plots, боксплоты (или violin plots), метрики корреляции и статистической значимости. Если вы используете метрику хи-квадрат, не забывайте посчитать к ней effect size.
 
 ![toneplot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tone_plot.png "tone plot")
+
+* В целом, преобладают отрицательные оценки
+* <i>X, а не Y</i> чуть выше % отрицательных оценок, чем <i>не Y, а X</i>
+
 ![y_quants](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/all_y.png "y quantities")
 ![y_animacy](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animacy_percents.png "y animacy")
 ![corr_plot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/variable_corr.png "var correlation")
