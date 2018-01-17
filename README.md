@@ -92,7 +92,7 @@ P-value для y_anim & pos, y_anim & neut < 0.05 (0.0013 и 0.0000), следо
 * порядок слов
 * Y переменные
 
-![corr2](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/corr_with_y.png "correlation with y")
+![corr_with_y](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/corr_with_y.png "correlation with y")
 
 Статистическая значимость:
 ```
