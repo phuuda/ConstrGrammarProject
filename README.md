@@ -51,6 +51,16 @@
 ![y_animacy](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animacy_percents.png "y animacy")
 ![corr_plot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/variable_corr.png "var correlation")
 
+Статистическая значимость:
+```
+P
+        pos    neg    neut   y_anim x_first
+pos            0.0000 0.0001 0.0013 0.5650 
+neg     0.0000        0.0000 0.4616 0.2657 
+neut    0.0001 0.0000        0.0000 0.2830 
+y_anim  0.0013 0.4616 0.0000        0.0731 
+x_first 0.5650 0.2657 0.2830 0.0731        
+```
 
 ## Мультифакторный анализ
 Здесь рекомендуется использовать один из следующих подходов к моделированию/анализу данных:  
