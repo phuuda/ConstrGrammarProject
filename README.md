@@ -53,6 +53,10 @@
 
 ![y_quants](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/all_y.png "y quantities")
 ![y_animacy](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animacy_percents.png "y animacy")
+
+* Примерно одинаково количеств. соотношение оцениваемых объектов
+* Исключение: <i>работа</i> -- намного чаще употребляется с <i>X, а не Y</i>
+
 ![corr_plot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/variable_corr.png "var correlation")
 
 Статистическая значимость:
