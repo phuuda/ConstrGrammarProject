@@ -16,8 +16,6 @@
 ## Данные
 
 ### Материал исследования
-Сколько и каких данных было взято, как они собирались.
-
 Из собранных ранее 612 примеров <i>не Y, а X</i> были выбраны 3 самых частотных одушевленных и 3 неодушевленных заполнения Y:
 * человек, женщина, ребенок
 * жизнь, отдых, работа
@@ -52,6 +50,7 @@
 
 ![toneplot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tone_plot.png "tone plot")
 ![y_quants](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/all_y.png "y quantities")
+![y_animacy](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animacy_percents.png "y animacy")
 
 ## Мультифакторный анализ
 Здесь рекомендуется использовать один из следующих подходов к моделированию/анализу данных:  
