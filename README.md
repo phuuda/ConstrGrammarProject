@@ -51,8 +51,7 @@
 Рекомендуются гистограммы, density plots, боксплоты (или violin plots), метрики корреляции и статистической значимости. Если вы используете метрику хи-квадрат, не забывайте посчитать к ней effect size.
 
 ![toneplot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tone_plot.png "tone plot")
-![animate_y](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animate_y.png "animate y")
-![inanimate_y](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/inanimate_y.png "inanimate y")
+![y_quants](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/all_y.png "y quantities")
 
 ## Мультифакторный анализ
 Здесь рекомендуется использовать один из следующих подходов к моделированию/анализу данных:  
