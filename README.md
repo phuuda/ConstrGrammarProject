@@ -50,7 +50,9 @@
 В этом разделе располагаются таблицы, графики и обсуждение дистрибуции значений в отдельных переменных и взаимной дистрибуции пар переменных.
 Рекомендуются гистограммы, density plots, боксплоты (или violin plots), метрики корреляции и статистической значимости. Если вы используете метрику хи-квадрат, не забывайте посчитать к ней effect size.
 
-![barplot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tone_plot.png "barplot")
+![toneplot](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tone_plot.png "tone plot")
+![animate_y](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/animate_y.png "animate y")
+![inanimate_y](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/inanimate_y.png "inanimate y")
 
 ## Мультифакторный анализ
 Здесь рекомендуется использовать один из следующих подходов к моделированию/анализу данных:  
