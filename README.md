@@ -181,5 +181,5 @@ tree <- rpart(wo ~ pos+neut+y_animacy+y_word, data = train, method = "class", co
 * Random trees are biased in favor of attributes with more levels!
 * Из-за этого -- завышенная var importance y_word & эта переменная вытесняет тональность (pos, neut)
 * Но анализ с помощью one-hot encoding для переменной y_word тоже отрицательно повлияет на качество
-* Недостаточно данных (?):
+* Недостаточно данных:
 * Неравномерное распределение категорий y_word ("работа" и "человек" встречались гораздо чаще, чем "женщина", "ребенок", "отдых")
