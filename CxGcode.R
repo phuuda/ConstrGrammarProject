@@ -102,23 +102,34 @@ library(randomForest)
 require(randomForest)
 
 # dependent: x_first
-fit_forest <- randomForest(factor(x_first)~., data=df5, importance = TRUE)
+fit_forest <- randomForest(factor(wo)~., data=df5, importance = TRUE)
 importance(fit_forest)
 varImpPlot(fit_forest, type=2) #mean decrease
 
 # дерево решений
 library(caTools)
 set.seed(3000)
-split <- sample.split(df5$x_first, SplitRatio = 0.7)
+split <- sample.split(df5$wo, SplitRatio = 0.7)
 train <- subset(df5, split == TRUE)
 test <- subset(df5, split == FALSE)
 
 library(rpart)
 library(rpart.plot)
 
-tree <- rpart(x_first ~ pos+neut+y_animacy, data = Train, method = "anova", control=rpart.control(minbucket = 25))
+tree <- rpart(wo ~ pos+neut+y_animacy, data = train, method = "class", control=rpart.control(minbucket = 25))
 prp(tree)
 
-tree <- rpart(x_first ~ pos+neut+y_animacy+y_word, data = Train, method = "anova", control=rpart.control(minbucket = 25))
+# accuracy test
+accuracy <- predict(tree, newdata = test, type="class")
+table(test$wo, accuracy)
+
+
+tree <- rpart(wo ~ pos+neut+y_animacy+y_word, data = train, method = "class", control=rpart.control(minbucket = 25))
 prp(tree)
+
+# accuracy test
+accuracy <- predict(tree, newdata = test, type="class")
+table(test$wo, accuracy)
+
+
 
