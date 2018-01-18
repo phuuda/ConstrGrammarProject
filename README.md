@@ -131,14 +131,14 @@ y_animacy 12.913220  3.0398802            15.687881         2.544958
 ```
 <b>Дерево решений</b>:
 ```
-tree <- rpart(x_first ~ pos+neut+y_animacy, data = Train, method = "anova", control=rpart.control(minbucket = 25))
+tree <- rpart(wo ~ pos+neut+y_animacy, data = train, method = "class", control=rpart.control(minbucket = 25))
 ```
-![tree1](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/pos_neut_anim_tree.png "tree1")
+![tree1](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tree_anim_tone.png "tree1")
 
 ```
-tree <- rpart(x_first ~ pos+neut+y_animacy+y_word, data = Train, method = "anova", control=rpart.control(minbucket = 25))
+tree <- rpart(wo ~ pos+neut+y_animacy+y_word, data = train, method = "class", control=rpart.control(minbucket = 25))
 ```
-![tree2](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/pos_neut_yword_tree.png "tree2")
+![tree2](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tree_animacy_yword.png "tree2")
 
 
 ## Содержательный лингвистический анализ результатов статистического анализа
