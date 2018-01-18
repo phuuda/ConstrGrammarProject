@@ -125,6 +125,27 @@ x_first   0.0735    0.5885    0.3773    0.8531  0.0000   0.0072  0.5650 0.2657 0
 * (множественный) анализ соответствий ((M)CA), возможно, в сочетании с кластеризацией/k-means  
 Требуется показать output модели(ей) и привести графики
 
+<b>RandomForest - variable importance</b>:
+![var_imp](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/fit_forest.png "var importance")
+```
+                  0          1 MeanDecreaseAccuracy MeanDecreaseGini
+y_word    24.197025 12.7569815            27.858344        14.893534
+pos       22.464894 -0.7195381            18.995440         4.776119
+neut      -4.680028 13.4552570             5.054475         1.609461
+y_animacy 12.913220  3.0398802            15.687881         2.544958
+```
+<b>Дерево решений</b>:
+```
+tree <- rpart(x_first ~ pos+neut+y_animacy, data = Train, method = "anova", control=rpart.control(minbucket = 25))
+```
+![tree1](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/pos_neut_anim_tree.png "tree1")
+
+```
+tree <- rpart(x_first ~ pos+neut+y_animacy+y_word, data = Train, method = "anova", control=rpart.control(minbucket = 25))
+```
+![tree2](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/pos_neut_yword_tree.png "tree2")
+
+
 ## Содержательный лингвистический анализ результатов статистического анализа
 Без содержательного анализа факторов выбора конструкции (взаимодействия выделенных вами переменных, их значимости/важности) проект не будет считаться выполненным.   
 
