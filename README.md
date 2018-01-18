@@ -138,7 +138,7 @@ tree <- rpart(wo ~ pos+neut+y_animacy, data = train, method = "class", control=r
 ```
 tree <- rpart(wo ~ pos+neut+y_animacy+y_word, data = train, method = "class", control=rpart.control(minbucket = 25))
 ```
-![tree2](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tree_animacy_yword.png "tree2")
+![tree2](https://github.com/phuuda/ConstrGrammarProject/blob/master/tone_animacy_yword.png "tree2")
 
 
 ## Содержательный лингвистический анализ результатов статистического анализа
