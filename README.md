@@ -123,11 +123,11 @@ x_first   0.0735    0.5885    0.3773    0.8531  0.0000   0.0072  0.5650 0.2657 0
 <b>RandomForest - variable importance</b>:
 ![var_imp](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/fit_forest.png "var importance")
 ```
-                  0          1 MeanDecreaseAccuracy MeanDecreaseGini
-y_word    24.197025 12.7569815            27.858344        14.893534
-pos       22.464894 -0.7195381            18.995440         4.776119
-neut      -4.680028 13.4552570             5.054475         1.609461
-y_animacy 12.913220  3.0398802            15.687881         2.544958
+             x_first   y_first MeanDecreaseAccuracy MeanDecreaseGini
+y_word    11.3752330 25.664027            26.632284        15.206169
+pos       -0.3650563 23.193130            18.966314         4.788294
+neut      10.7588948 -4.498745             4.528003         1.741692
+y_animacy  1.2882612 13.638806            13.889072         2.300293
 ```
 <b>Дерево решений</b>:
 ```
