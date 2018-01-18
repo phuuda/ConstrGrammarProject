@@ -134,12 +134,24 @@ y_animacy 12.913220  3.0398802            15.687881         2.544958
 tree <- rpart(wo ~ pos+neut+y_animacy, data = train, method = "class", control=rpart.control(minbucket = 25))
 ```
 ![tree1](https://raw.githubusercontent.com/phuuda/ConstrGrammarProject/master/tree_anim_tone.png "tree1")
+```
+         accuracy
+          x_first y_first
+  x_first      34      15
+  y_first      25      16
+```
+
 
 ```
 tree <- rpart(wo ~ pos+neut+y_animacy+y_word, data = train, method = "class", control=rpart.control(minbucket = 25))
 ```
 ![tree2](https://github.com/phuuda/ConstrGrammarProject/blob/master/tone_animacy_yword.png "tree2")
-
+```
+         accuracy
+          x_first y_first
+  x_first      28      21
+  y_first      20      21
+```
 
 ## Содержательный лингвистический анализ результатов статистического анализа
 
