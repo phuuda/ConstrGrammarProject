@@ -3,7 +3,7 @@
 
 ### Материалы
 [Таблица с данными](https://github.com/phuuda/ConstrGrammarProject/blob/master/all_together.csv)  
-[Ссылка на код, здесь целиком с комментарием](https://github.com/...) ( или ниже по тексту отдельными блоками )
+[Ссылка на код, здесь целиком с комментарием](ConstrGrammarProject/blob/master/CxGcode.csv)
 
 ## Рабочая гипотеза
 
